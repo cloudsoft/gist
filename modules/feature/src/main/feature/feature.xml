@@ -3,8 +3,7 @@
 
     <feature name="demoblueprint" version="${project.version}">
         <bundle>mvn:com.acme/gist/${project.version}</bundle>
-        <bundle>mvn:com.google.code.gson/gson/2.2.2</bundle>
-        <bundle>mvn:org.eclipse.mylyn.github/org.eclipse.egit.github.core/2.1.5</bundle>
+        <bundle>mvn:io.cloudsoft.wrap.org.eclipse.mylyn.github/io.cloudsoft.wrap.org.eclipse.egit.github.core/2.1.5_1</bundle>
     </feature>
 
 </features>

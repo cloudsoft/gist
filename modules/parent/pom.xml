@@ -46,9 +46,9 @@
     </repositories>
 
     <modules>
-        <module>..</module>
+        <module>../github</module>
+        <module>../..</module>
         <module>../feature</module>
-
     </modules>
 
 </project>
