@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="${project.groupId}-${project.version}">
+
+    <feature name="demoblueprint" version="${project.version}">
+        <bundle>mvn:com.acme/gist/${project.version}</bundle>
+        <bundle dependency="true">mvn:com.google.code.gson/gson/2.2.0</bundle>
+        <bundle dependency="true">mvn:org.eclipse.mylyn.github/org.eclipse.egit.github.core/2.1.5</bundle>
+    </feature>
+
+</features>
